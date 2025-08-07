@@ -59,6 +59,34 @@ body {
     padding-bottom: 5px;
   }
 
+body.dark-mode {
+  background-color: #1c1c1c;
+  color: #f0f0f0;
+}
+
+body.dark-mode a {
+  color: #81cfff;
+}
+
+body.dark-mode a:hover {
+  color: #48a9e6;
+}
+
+body.dark-mode .container {
+  background-color: #2a2a2a;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+}
+
+body.dark-mode section h2 {
+  border-bottom: 1px dotted #666;
+  color: #f0f0f0;
+}
+
+body.dark-mode footer {
+  color: #aaa;
+  border-top: 1px solid #444;
+}
+
   /* Footer */
   footer {
     text-align: center;
